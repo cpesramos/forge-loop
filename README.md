@@ -72,3 +72,31 @@ Start with:
 ```text
 codex/01_PROJECT_SKELETON.md
 ```
+
+## Local development
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the browser prototype:
+
+```bash
+npm run dev
+```
+
+Run tests:
+
+```bash
+npm test
+```
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+The current app is only the initial project skeleton. It shows an ugly 6x6 grid shell, placeholder panels, typed placeholder data, and the first pure grid helper. Recipes, contract resolution, shop logic, upgrades, persistence, and the final gameplay loop are intentionally not implemented yet.
